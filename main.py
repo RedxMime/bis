@@ -882,9 +882,10 @@ def tools():
 ##############################################################################################
 def title():
     
-    stdout.write("                                 "+Fore.LIGHTCYAN_EX    ╔╦╗╔═╗╔╦╗  ╔╦╗╔═╗╔═╗╦  
-                                                                           ║ ║ ╦ ║    ║ ║ ║║ ║║  
-                                                                           ╩ ╚═╝ ╩    ╩ ╚═╝╚═╝╩═╝                \n")
+    stdout.write("                               "+Fore.LIGHTCYAN_EX   +" ╔╦╗╔═╗╔╦╗  ╔╦╗╔═╗╔═╗╦      \n")
+   stdout.write("              "+Fore.LIGHTCYAN_EX                       +"║ ║ ╦ ║    ║ ║ ║║ ║║                   \n")
+ stdout.write("                 "+Fore.LIGHTCYAN_EX                   +"   ╩ ╚═╝ ╩    ╩ ╚═╝╚═╝╩═╝              \n")      
+                                                                                          
     stdout.write("             "+Fore.LIGHTCYAN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTCYAN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
     stdout.write("             "+Fore.LIGHTCYAN_EX+"║ "+Fore.LIGHTWHITE_EX   +"        This is TGT's main tool to DDOS Targets "+Fore.LIGHTCYAN_EX  +"       ║\n")
